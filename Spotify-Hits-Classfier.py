@@ -94,8 +94,8 @@ hits2020s = pd.read_csv("2020s.csv")
 plt.plot(hits1980s.length, color='blue')
 plt.plot(hits2020s.length, color='red')
 plt.xlabel("song #")
-plt.ylabel("length ")
-plt.title("length across all songs in both playlists")
+plt.ylabel(" song length ")
+plt.title("length of all songs in both eras")
 
 
 # In[58]:
@@ -104,8 +104,8 @@ plt.title("length across all songs in both playlists")
 plt.plot(hits1980s.speechiness, color='blue')
 plt.plot(hits2020s.speechiness, color='red')
 plt.xlabel("song #")
-plt.ylabel("length ")
-plt.title("length across all songs in both playlists")
+plt.ylabel("speechiness frequency ")
+plt.title("the amount of speechiness of all songs in both eras")
 
 
 # In[59]:
@@ -114,8 +114,8 @@ plt.title("length across all songs in both playlists")
 plt.plot(hits1980s.loudness, color='blue')
 plt.plot(hits2020s.loudness, color='red')
 plt.xlabel("song #")
-plt.ylabel("length ")
-plt.title("length across all songs in both playlists")
+plt.ylabel("loudness ")
+plt.title("the loudness of all songs in both eras")
 
 
 # In[68]:
